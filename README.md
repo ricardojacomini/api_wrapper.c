@@ -96,7 +96,7 @@ curl -v -X POST http://172.20.11.21:5000/invert-matrix -H "Content-Type: applica
 
 ## Service Setup (Optional)
 
-To run the Flask server as a service, you can use the provided `server.service.txt` file. Follow these steps:
+To run the Flask server as a service, you can use the provided `server.service` file. Follow these steps:
 
 1. Copy the service file to the systemd directory:
 
