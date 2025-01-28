@@ -1,4 +1,4 @@
-# This project explains how to use the Fortran client (`client.f90`) with the C wrapper (`api_wrapper.c`) to interact with the Python Flask API (`server.py`) in Highi-Performance Computing (HPC) Cluster.
+# This project explains how to use the Fortran client (`client.f90`) with the C wrapper (`api_wrapper.c`) to interact with the Python Flask API (`server.py`) in the High-Performance Computing (HPC) Cluster.
 
 ```markdown
 # Matrix Inversion API Client-Server Example
