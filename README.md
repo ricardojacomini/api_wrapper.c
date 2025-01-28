@@ -132,13 +132,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 - [libcurl](https://curl.se/libcurl/) for HTTP requests in C.
 ```
 
-### Explanation
-
-- **Prerequisites**: Lists the necessary tools and libraries.
-- **Setup**: Provides step-by-step instructions to set up the environment, compile the C wrapper and Fortran client, and start the Flask server.
-- **Usage**: Explains how to run the Fortran client and test the API using `cURL`.
-- **Service Setup**: Optional instructions for running the Flask server as a systemd service.
-- **License**: Specifies the license for the project.
-- **Contributing**: Encourages contributions from the community.
-
-This README should help users understand how to use the Fortran client with the C wrapper to interact with the Python Flask API.
