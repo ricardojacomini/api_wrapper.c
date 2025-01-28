@@ -1,0 +1,15 @@
+[Unit]
+Description=Python Flask Matrix Server
+After=network.target
+
+[Service]
+User=rdesouz4
+Group=rfadmin
+Environment=SYSTEMD_LOG_LEVEL=debug
+WorkingDirectory=/home/rdesouz4/POC_NASA/matrix_api
+ExecStart=/home/rdesouz4/POC_NASA/matrix_api/venv/bin/python /home/rdesouz4/POC_NASA/matrix_api/server.py
+Restart=always
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target
