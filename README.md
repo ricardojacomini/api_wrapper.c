@@ -43,6 +43,7 @@ cd matrix-api-client-server
 The C wrapper (`api_wrapper.c`) uses the `libcurl` library to handle HTTP requests. Compile it as follows:
 
 ```bash
+$ module load curl
 $ gcc -c api_wrapper.c -o api_wrapper.o -lcurl
 ```
 
@@ -100,20 +101,20 @@ To run the Flask server as a service, you can use the provided `server.service.t
 1. Copy the service file to the systemd directory:
 
     ```bash
-    sudo cp server.service.txt /etc/systemd/server.service
+    $ sudo cp server.service /etc/systemd/server.service
     ```
 
 2. Reload the systemd daemon:
 
     ```bash
-    sudo systemctl daemon-reload
+    $ sudo systemctl daemon-reload
     ```
 
 3. Start and enable the service:
 
     ```bash
-    sudo systemctl start server.service
-    sudo systemctl enable server.service
+    $ sudo systemctl start server.service
+    $ sudo systemctl enable server.service
     ```
 
 ## License
